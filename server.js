@@ -5,7 +5,6 @@ const DIR_NAME = "./"
 const MAIN_HTML = "main.html"
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/main.html')
-    res.sendFile(__dirname + '/assets/script.js')
     // response.sendFile(`${DIR_NAME}${MAIN_HTML}`)
 })
 
