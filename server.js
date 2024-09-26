@@ -7,7 +7,7 @@ const MAIN_HTML = "main.html"
 
 app.use(cors())
 
-app.use(express.static('public'))
+app.use(express.static('/public'))
 
 app.listen(process.env.PORT || PORT, () => {
     console.log(`express server running on port: ${PORT}`)
